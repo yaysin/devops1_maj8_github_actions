@@ -1,0 +1,11 @@
+  name: Delövning 1 - Minimal Pipeline
+  
+  on:
+  # ska startas manuellt
+  
+  jobs:
+    print-info:
+      runs-on: # vilken runner?
+      steps:
+        - name: # namnge steget
+          run: # vad som ska göras
